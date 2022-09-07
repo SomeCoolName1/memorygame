@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import GameHandling from "./components/game";
+import GameHeader from "./components/header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="bg-bodyBackground w-full min-h-screen h-full font-custom text-lg">
+        <GameHandling />
+      </div>
+      <div className="w-full bg-black text-white font-custom text-lg text-center">
+        Made by SomeCoolName
+      </div>
+    </>
   );
 }
 
 export default App;
+// bg-bodyBackground
