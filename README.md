@@ -16,7 +16,7 @@ The primary focus of this project is to practice React Hooks and I have chosen t
 - Background colours shuffle alongside card order for added difficulty
 - See your highscore
 
-**Features:**
+**Features to be implemented:**
 
 - Incorporate a backend that allows users to input their highscores and compare against other players
 
