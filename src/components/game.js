@@ -3,44 +3,49 @@ import CardRender from "./card";
 import GameHeader from "./header";
 
 const nameList = [
-  "Admire Vega",
-  "Agnes Digital",
-  "Agnes Tachyon",
-  "Copano Rickey",
-  "Curren Chan",
-  "Daitaku Helios",
-  "Daiwa Scarlet",
-  "Eishin Flash",
-  "El Condor Pasa",
-  "Fine Motion",
-  "Gold City",
-  "Grass Wonder",
-  "Happy Meek",
-  "Hishi Akebono",
-  "Kitasan Black",
-  "Narita Brian",
-  "Sirius Symboli",
-  "Haru Urara",
-  "Manhattan Cafe",
-  "B95",
-  "Matikane Tannhauser",
-  "Hokko Tarumae",
-  "Rice Shower",
-  "Mayano Top Gun",
-  "Mejiro Dober",
-  "Mr. C.B.",
-  "Mejiro Mcqueen",
-  "Mihono Bourbon",
-  "Oguri Cap",
-  "Sakura Bakunshin O",
-  "Satono Diamond",
-  "Silence Suzuka",
-  "Symboli Rudolf",
-  "Tamamo Cross",
-  "Tokai Teio",
-  "Tosho Sweep",
-  "Twin Turbo",
-  "Yamanin Zephyr",
+  "Android 16",
+  "Android 17",
+  "Android 18",
+  "Android 21",
+  "Beerus",
+  "Super Baby 2",
+  "Bardock",
+  "Black",
+  "Broly",
+  "Broly DBS",
+  "Buu",
+  "Cell",
+  "Cooler",
+  "Frieza",
+  "Ginyu",
+  "Gogeta SS4",
+  "Gogeta SSGSS",
+  "Gohan Adult",
+  "Gohan Teen",
+  "Goku Base",
+  "Goku GT",
+  "Goku SS",
+  "Goku SSGSS",
+  "Goku UI",
+  "Gotenks",
+  "Hit",
+  "Jiren",
+  "Kefla",
+  "Kid Buu",
+  "Krillin",
+  "Lab 21",
+  "Nappa",
+  "Piccolo",
+  "Roshi",
+  "Tien",
+  "Trunks",
+  "Vegeta Base",
+  "Vegeta SS",
+  "Vegeta SSGSS",
+  "Vegito SSGSS",
+  "Videl",
+  "Yamcha",
+  "Zamasu Fused",
 ];
 
 const GameHandling = () => {
@@ -117,11 +122,13 @@ const GameHandling = () => {
   return (
     <div className="h-full w-full">
       <div
-        className="bg-black z-100 opacity-95 text-white text-4xl h-full w-full absolute hidden"
+        className="bg-black opacity-95 text-white text-4xl w-full absolute hidden z-20 h-full"
         onClick={gameResult}
         id="overlay"
       >
-        <div className="h-full text-center translate-y-1/2">{win}</div>
+        <div className="min-h-full h-full justify-center flex items-center text-center">
+          {win}
+        </div>
       </div>
       <div className="w-screen text-center">
         <GameHeader
@@ -130,7 +137,7 @@ const GameHandling = () => {
           difficulty={difficulty}
         />
       </div>
-      <div className="flex flex-wrap justify-center w-4/5 m-auto">
+      <div className="flex flex-wrap justify-center w-4/5 m-auto z-0">
         {cardList.map((s) => (
           <CardRender cardList={s} onclick={cardHandling} />
         ))}

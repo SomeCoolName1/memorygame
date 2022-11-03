@@ -1,7 +1,7 @@
 import React from "react";
 
 const CardRender = ({ cardList, onclick }) => {
-  const cardRetrieve = require("./images/" + cardList + ".png");
+  const cardRetrieve = require("./images/" + cardList + ".webp");
 
   const pink = "from-softPink to-softPinkEnd";
   const purple = "from-softPurple to-softPurpleEnd";
@@ -27,16 +27,19 @@ const CardRender = ({ cardList, onclick }) => {
           `${cardColor}`
         }
       >
-        <p className="text-center top-0 text-xs text-white -translate-y-full duration-300 group-hover:translate-y-full group-hover:scale-110">
+        <p className="text-center top-0 text-xs text-white -translate-y-full duration-300 group-hover:translate-y-full group-hover:scale-110 ">
           {cardList}
         </p>
 
-        <div className="w-44 min-h-full">
+        <div className="w-44 min-h-test relative z-0">
           <img
             alt="UMA"
             src={cardRetrieve}
             onClick={onclick}
-            className={cardList}
+            className={
+              `${cardList}` +
+              "  absolute h-image max-w-none m-auto left-1/2 -translate-x-1/2 text-center top-10 z-0"
+            }
           />
         </div>
       </div>

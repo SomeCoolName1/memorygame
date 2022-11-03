@@ -1,31 +1,46 @@
-Admire Vega.png
-Agnes Digital.png
-Agnes Tachyon.png
-Copano Rickey.png
-Curren Chan.png
-Daitaku Helios.png
-Daiwa Scarlet.png
-Eishin Flash.png
-El Condor Pasa.png
-Fine Motion.png
-Gold Ship.png
-Happy Meek.png
-Kitasan Black.png
+Android_16.webp
+Android_17.webp
+Android_18.webp
+Android_21.webp
+Baby_2.webp
+Bardock.webp
+Beerus.webp
+Black.webp
+Broly.webp
+Broly_DBS.webp
+Buu.webp
+Cell.webp
+Cooler.webp
+Frieza.webp
+Ginyu.webp
+Gogeta_SS4.webp
+Gogeta_SSGSS.webp
+Gohan_Adult.webp
+Gohan_Teen.webp
+Goku_Base.webp
+Goku_GT.webp
+Goku_SS.webp
+Goku_SSGSS.webp
+Goku_UI.webp
+Gotenks.webp
+Hit.webp
+Janemba.webp
+Jiren.webp
+Kefla.webp
+Kid_Buu.webp
+Krillin.webp
+Lab_21.webp
 logo
-Manhattan Cafe.png
-Matikane Tannhauser.png
-Mayano Top Gun.png
-Mejiro Dober.png
-Mejiro Mcqueen.png
-Mihono Bourbon.png
-Oguri Cap.png
+Nappa.webp
+Piccolo.webp
 print.txt
-Sakura Bakunshin O.png
-Satono Diamond.png
-Silence Suzuka.png
-Symboli Rudolf.png
-Tamamo Cross.png
-Tokai Teio.png
-Tosho Sweep.png
-Twin Turbo.png
-Yamanin Zephyr.png
+Roshi.webp
+Tien.webp
+Trunks.webp
+Vegeta_Base.webp
+Vegeta_SS.webp
+Vegeta_SSGSS.webp
+Vegito_SSGSS.webp
+Videl.webp
+Yamcha.webp
+Zamasu_Fused.webp

@@ -4,6 +4,14 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      height: {
+        image: "300px",
+      },
+
+      minHeight: {
+        test: "350px",
+      },
+
       translate: {
         beyond: "100%",
       },
